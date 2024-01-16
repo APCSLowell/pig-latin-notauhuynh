@@ -1,6 +1,6 @@
 public class Main {
   public ArrayList <String> list = new ArrayList <String>();
-  public static void main(final String[] args) {
+  public void main(final String[] args) {
     PigLatin sim = new PigLatin();
     sim.tester();
     String[] lines = {"beast", "dough", "happy", "question", "star", "three", "eagle", "try"};
