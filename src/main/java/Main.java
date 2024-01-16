@@ -1,3 +1,4 @@
+import java.util.*;
 public class Main {
   public ArrayList <String> list = new ArrayList <String>();
   public void main(final String[] args) {
