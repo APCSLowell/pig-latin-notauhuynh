@@ -61,5 +61,4 @@ public void stringDectector(String sWord)
     }
   }
 }
-  }
 }
