@@ -1,26 +1,27 @@
-import java.util.*;
+
+
 public class Main {
-  ArrayList <String> list = new ArrayList <String>();
-  public void main(final String[] args) {
-    PigLatin sim = new PigLatin();
-    sim.tester();
+	
+	public static void main(final String[] args) {
+		PigLatin sim = new PigLatin();
+        	sim.tester();
     String[] lines = {"beast", "dough", "happy", "question", "star", "three", "eagle", "try"};
-    String phrase = "With heads bared we stand In tribute to thee Our Alma-Mater Lowell All true to thee we'll be Unfurled red and white None shall thee decry They name we love Oh Lowell High";
+    // String phrase = "With heads bared we stand In tribute to thee Our Alma-Mater Lowell All true to thee we'll be Unfurled red and white None shall thee decry They name we love Oh Lowell High";
 
-
-    stringDectector(phrase);
-    System.out.println("there are " + lines.length + " lines");
-    for (int i = 0; i < lines.length; i++)
-    {
-      System.out.println(pigLatin(lines[i]));
-    }
-    for (int i = 0; i < list.size(); i++)
-    {
-      System.out.print(pigLatin(list.get(i)) + " ");
-    }
-     
-}
-public static int findFirstVowel(String word)
+  
+    // stringDectector(phrase);
+  System.out.println("there are " + lines.length + " lines");
+  for (int i = 0; i < lines.length; i++)
+  {
+    System.out.println(pigLatin(lines[i]));
+  }
+  // for(int i = 0; i < list.size(); i++)
+  // {
+  //   System.out.print(pigLatin(list.get(i)) + " ");
+    
+  // }
+	}
+	public static int findFirstVowel(String word)
   //precondition: sWord is a valid String of length greater than 0.
   //postcondition: returns the position of the first vowel in sWord.  If there are no vowels, returns -1
 {
@@ -63,4 +64,6 @@ public static void stringDectector(String sWord)
     }
   }
 }
+
+
 }
