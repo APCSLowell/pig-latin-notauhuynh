@@ -52,18 +52,18 @@ public static String pigLatin(String sWord)
     return "ERROR!";
   }
 }
-public static void stringDectector(String sWord)
-{
-  int indexPos = 0;
-  for(int i = 0; i < sWord.length(); i++){
-    if(sWord.substring(i, i+1).equals(" ")){
-      list.add(sWord.substring(indexPos, i));
-      indexPos = i + 1;
-      System.out.println(list);
-      System.out.println(list.size());
-    }
-  }
-}
+// public static void stringDectector(String sWord)
+// {
+//   int indexPos = 0;
+//   for(int i = 0; i < sWord.length(); i++){
+//     if(sWord.substring(i, i+1).equals(" ")){
+//       list.add(sWord.substring(indexPos, i));
+//       indexPos = i + 1;
+//       System.out.println(list);
+//       System.out.println(list.size());
+//     }
+//   }
+// }
 
 
 }
